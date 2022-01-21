@@ -1,0 +1,23 @@
+{
+    "cancion": {
+        "-duracion": "3:40",
+        "-año": "1979",
+        "titulo": "Rock with you",
+        "compositores": {
+            "compositor": {
+                "nombre": "Rod",
+                "apellidos": "Temperton"
+            }
+        },
+        "discográfica": "Epic",
+        "productores": {
+            "productor": {
+                "nombre": "Quincy",
+                "apellidos": "Jones"
+            }
+        },
+        "artistas": {
+            "artista": "Michael Jackson"
+        }
+    }
+}

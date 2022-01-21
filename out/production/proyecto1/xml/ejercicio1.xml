@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cancion
+[
+<!ELEMENT cancion (titulo, compositor, productor,discográfica,artista)>
+		<!ELEMENT titulo (#PCDATA)>
+		<!ELEMENT compositor (#PCDATA)>
+		<!ELEMENT productor (#PCDATA)>
+		<!ELEMENT discográfica (#PCDATA)>
+		<!ELEMENT artista (#PCDATA)>
+
+]>
+<cancion>
+	<titulo>Rock with you</titulo>
+	<compositor>Rod Temperton</compositor>
+	<productor>Quincy Jones</productor>
+	<discográfica>Epic</discográfica>
+	<artista>Michael Jackson</artista>
+</cancion>
+
+

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IDServidor Id="1">
+	<Ubicacion>Calle1</Ubicacion>
+	<Marca>HP</Marca>
+	<Uso>Correo</Uso>
+	<Fecha_UF>10 de Enero de 2022</Fecha_UF>
+	<Hardware>
+		<Placa>Placa Asus ROG Server</Placa>
+		<TipoMem>DDR4</TipoMem>
+		<CantMem>32GB</CantMem>
+		<VeloMem>12800 MB/s</VeloMem>
+		<TecnHD>HDD</TecnHD>
+		<CapacHD>5TB</CapacHD>
+		<TarjRed>Ethernet</TarjRed>
+		<tplaca>ATX</tplaca>
+		<amp>Ghz</amp>
+		<veloc>Ghz</veloc>
+		<ahd>Tb</ahd>
+	</Hardware>
+</IDServidor>
+
+<IDServidor Id="2">
+	<Ubicacion>Calle2</Ubicacion>
+	<Marca>IBM</Marca>
+	<Uso>Correo</Uso>
+	<Fecha_UF>5 de Enero de 2022</Fecha_UF>
+	<Hardware>
+		<Placa>Placa Asus ROG Server</Placa>
+		<TipoMem>DDR4</TipoMem>
+		<CantMem>32GB</CantMem>
+		<VeloMem>12800 MB/s</VeloMem>
+		<TecnHD>HDD</TecnHD>
+		<CapacHD>5TB</CapacHD>
+		<TarjRed>Ethernet</TarjRed>
+		<tplaca>ATX</tplaca>
+		<amp>Ghz</amp>
+		<veloc>Ghz</veloc>
+		<ahd>Tb</ahd>
+	</Hardware>
+</IDServidor>
+
+<IDServidor Id="3">
+	<Ubicacion>Calle3</Ubicacion>
+	<Marca>HP</Marca>
+	<Uso>Correo</Uso>
+	<Fecha_UF>5 de Enero de 2022</Fecha_UF>
+	<Hardware>
+		<Placa>Placa Asus ROG Server</Placa>
+		<TipoMem>DDR4</TipoMem>
+		<CantMem>32GB</CantMem>
+		<VeloMem>12800 MB/s</VeloMem>
+		<TecnHD>HDD</TecnHD>
+		<CapacHD>5TB</CapacHD>
+		<TarjRed>Ethernet</TarjRed>
+		<tplaca>ATX</tplaca>
+		<amp>Ghz</amp>
+		<veloc>Ghz</veloc>
+		<ahd>Tb</ahd>
+	</Hardware>
+</IDServidor>
