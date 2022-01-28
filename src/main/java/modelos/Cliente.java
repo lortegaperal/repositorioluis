@@ -4,30 +4,7 @@ import java.util.Objects;
 
 public class Cliente {
 
-    @Override
-    public String toString() {
-        return "Cliente{" +
-                "identificador=" + identificador +
-                ", dni='" + dni + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", apellidos='" + apellidos + '\'' +
-                ", direccion='" + direccion + '\'' +
-                ", tcliente=" + tcliente +
-                '}';
-    }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Cliente cliente = (Cliente) o;
-        return identificador == cliente.identificador && Objects.equals(dni, cliente.dni) && Objects.equals(nombre, cliente.nombre) && Objects.equals(apellidos, cliente.apellidos) && Objects.equals(direccion, cliente.direccion) && tcliente == cliente.tcliente;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(identificador, dni, nombre, apellidos, direccion, tcliente);
-    }
 
     private int identificador;
     private String dni;
@@ -82,4 +59,28 @@ public class Cliente {
         this.tcliente = tcliente;
     }
 
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "identificador=" + identificador +
+                ", dni='" + dni + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", tcliente=" + tcliente +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Cliente cliente = (Cliente) o;
+        return identificador == cliente.identificador && Objects.equals(dni, cliente.dni) && Objects.equals(nombre, cliente.nombre) && Objects.equals(apellidos, cliente.apellidos) && Objects.equals(direccion, cliente.direccion) && tcliente == cliente.tcliente;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(identificador, dni, nombre, apellidos, direccion, tcliente);
+    }
 }

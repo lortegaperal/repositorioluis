@@ -4,6 +4,12 @@ import java.time.LocalDate;
 import java.util.Objects;
 
 public class Producto {
+    private int identificador;
+    private String codigo;
+    private String descripcion;
+    private LocalDate fechaCaducidad;
+    private TipoProducto tproductos;
+    private Almacen almacen;
 
     public int getIdentificador() {
         return identificador;
@@ -78,11 +84,6 @@ public class Producto {
         return Objects.hash(identificador, codigo, descripcion, fechaCaducidad, tproductos, almacen);
     }
 
-    private int identificador;
-    private String codigo;
-    private String descripcion;
-    private LocalDate fechaCaducidad;
-    private TipoProducto tproductos;
-    private Almacen almacen;
+
 
 }
