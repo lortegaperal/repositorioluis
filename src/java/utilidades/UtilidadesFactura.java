@@ -17,8 +17,7 @@ public class UtilidadesFactura {
         }
     }
     public double calcularBaseFactura(Factura factura){
-        factura.getLineaFactura();
-        for (){
+
 
         }
 
