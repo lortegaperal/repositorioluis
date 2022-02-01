@@ -3,6 +3,7 @@ package modelos;
 import java.util.Objects;
 
 public class LineaFactura {
+
     private int identificador;
     private Factura factura;
     private Producto producto;

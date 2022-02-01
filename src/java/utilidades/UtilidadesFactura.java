@@ -17,11 +17,18 @@ public class UtilidadesFactura {
         }
     }
     public double calcularBaseFactura(Factura factura){
+        double total = 0.0;
 
-
+        for( LineaFactura lin : factura.getLineaFactura()){
+            total += lin.getProducto().getPrecio() * lin.getCantidad();
         }
-
+        return total;
 
     }
+    public double calcularTotalAPagar(Factura factura){
 
+        double TotalAPagar = (factura.getImporteBase() - factura.getDescuento()) * factura.getIva();
+        return TotalAPagar;
+
+    }
 }
