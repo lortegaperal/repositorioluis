@@ -1,11 +1,10 @@
 package utilidades;
 
-import modelos.Empleado;
-import modelos.Empresa;
-import modelos.Producto;
-import modelos.TipoContrato;
+import modelos.*;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class UtilidadesEmpresa {
@@ -28,6 +27,7 @@ public class UtilidadesEmpresa {
                 empleados_mileuristas.add(empleado);
             }
         }
+        empleados_mileuristas.sort(Comparator.comparing(e-> e.getContrato().getSalarioBase(), Collections.reverseOrder()));
         return empleados_mileuristas;
 
     }
