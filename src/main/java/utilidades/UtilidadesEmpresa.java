@@ -32,4 +32,16 @@ public class UtilidadesEmpresa {
 
     }
 
+    //COMPROBAR
+
+    public double fondoSalarialEmpresa(Empresa empresa){
+        int suma = 0;
+        double salario = 0;
+        for(Empleado empleado: empresa.getEmpleados()){
+            suma += empleado.getContrato().getSalarioBase();
+        }
+        return suma;
+    }
+
+
 }
