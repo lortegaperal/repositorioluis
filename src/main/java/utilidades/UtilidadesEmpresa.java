@@ -45,7 +45,7 @@ public class UtilidadesEmpresa {
         return suma;
     }
 
-//CON LOS EMPLEADOS MEJOR
+
 
     public Empleado getMejorPagado(List<Empresa> empresas) {
         Empleado empleado_rico = null;
@@ -54,6 +54,8 @@ public class UtilidadesEmpresa {
                 double salario = empleado.getContrato().getSalarioBase();
                 if (empleado.getContrato().getSalarioBase() > salario) {
                     empleado_rico = empleado;
+                }else {
+                    return empleado_rico;
                 }
             }
         }
