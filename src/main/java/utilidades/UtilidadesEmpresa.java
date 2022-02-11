@@ -13,7 +13,7 @@ public class UtilidadesEmpresa {
 
         for(Empleado empleado : empresa.getEmpleados()) {
 
-            if (empleado.getContrato().equals(tipoContrato)) {
+            if (empleado.getContrato().getTipocontrato().equals(tipoContrato)) {
                  empleados_contrato.add(empleado);
             }
         }
@@ -32,16 +32,28 @@ public class UtilidadesEmpresa {
 
     }
 
-    //COMPROBAR
 
     public double fondoSalarialEmpresa(Empresa empresa){
         int suma = 0;
-        double salario = 0;
+
         for(Empleado empleado: empresa.getEmpleados()){
+
             suma += empleado.getContrato().getSalarioBase();
         }
+
         return suma;
     }
 
+//CON LOS EMPLEADOS MEJOR
+    public Empleado getMejorPagado(List<Empresa> empresas){
+        for (Empresa empresa: empresas){
+            for (Empleado empleado: empresa.getEmpleados()){
+               double salario = empleado.getContrato().getSalarioBase();
+                if (empleado.getContrato().getSalarioBase() > salario){
+                    double salario_max = empleado.getContrato().getSalarioBase();
+                }
 
+            }
+        }
+    }
 }
