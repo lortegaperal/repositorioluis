@@ -46,6 +46,7 @@ public class UtilidadesEmpresa {
     }
 
 
+//comprobar
 
     public Empleado getMejorPagado(List<Empresa> empresas) {
         Empleado empleado_rico = null;

@@ -1,5 +1,3 @@
-package jva;
-
 import modelos.Almacen;
 
 public class pruebaV1 {
